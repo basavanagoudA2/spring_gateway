@@ -1,0 +1,9 @@
+server:
+  port: 9091
+spring:
+  application:
+    name: SPRING-API-GATEWAY
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://localhost:8085/eureka}
